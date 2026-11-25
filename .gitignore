@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Claude Code tool config - local to this machine, not needed to reproduce
+# anything in the paper.
+.claude/
+
+# Saved experiment outputs (CSV/JSON from field_sim/experiments) - large and
+# fully regenerable by re-running the exp_*.py / make_*.py scripts; see
+# README.md.
+field_sim/experiments/results_main/
+field_sim/experiments/results_additional/
+
+# Figure PNGs - kept locally for quick preview only; the PDFs in figures/
+# are the ones that matter, and both are regenerated together by make_*.py.
+figures/*.png
