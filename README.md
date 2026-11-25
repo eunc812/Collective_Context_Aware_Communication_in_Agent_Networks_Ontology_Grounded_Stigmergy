@@ -1,8 +1,6 @@
 # Collective Context-Aware Communication in Agent Networks: Ontology-Grounded Stigmergy for Collective Intelligence
 
-Simulation code for the case studies in the paper of the same name (Eun Choi, Hyowoon Seo).
-
-Mobile agents observe a shared environment and selectively deposit ontology-grounded semantic traces into a shared collective context, which evolves through reception, temporal decay, and reasoning over ontology rules - and in turn guides later transmissions.
+Simulation code for the case studies in the paper of the same name.
 
 ## Installation
 
